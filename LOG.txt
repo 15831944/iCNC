@@ -1,0 +1,42 @@
+2017/10/02 
+	*開發開始，介面完成
+2017/10/15 
+	*介面實作，美化
+	*CNC架構確立，Data Link建立
+2017/10/19
+	*時間顯示完成
+	*開啟檔案能夠傳送到dec了
+	*按鈕功能實作
+2017/10/26
+	*介面優化，實作部分按鈕
+	*結構優化，可讀性增加
+	*DEC可以讀取資料並且解析逐行資料了
+	*定義NcFile行末須加分號;，註解用/*text*/
+	*優化Block之間的溝通
+	*調整部分函式的讀取權限
+2017/11/02
+	*FIFO實作
+	*介面優化
+2017/11/17
+	*偵錯環境建置
+2017/12/14
+	*DEC complete
+	*slope Complete
+2017/12/23
+	*simulator complete
+	*INTP line motion complete
+	*can do motion many times
+	*deal some motion BUG, like pass over 0 point
+2017/12/24
+	*Catch some bug
+	*Deal the critical point, like(0,0) or (150,0)
+2017/12/28
+	*Rewrite something
+	*The reset buttom is ready to work
+2018/01/21
+	*All function complete expect teach and m01/fb etc...
+	*Some bugs will occur at the edge and need to restart
+	*Change the icon
+	*simulator will show z axis in color
+	*G00/G01/G02/G03 function complete
+	*This may be the last update in 2018 Jan

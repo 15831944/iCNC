@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CNC">
+      <UniqueIdentifier>{57edf962-d996-42d2-88eb-b8e356a97f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC">
+      <UniqueIdentifier>{c2b1e0a4-fa08-4dad-b390-6a44e02426d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP">
+      <UniqueIdentifier>{f0d285d1-8c1b-49a7-9372-454b3a1513ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI">
+      <UniqueIdentifier>{fada5f5f-717f-4218-9ef1-b8f9c047bc42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCL">
+      <UniqueIdentifier>{753fc25d-7327-44c6-a7c6-46e9daebdfbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS">
+      <UniqueIdentifier>{e275d4f0-ec8f-4629-94b5-9f8affb61b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{811a9730-2656-42e8-9f66-7f3854d691ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCL\INC">
+      <UniqueIdentifier>{a1f8d081-cea1-4363-b901-8c4bcc4d2fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCL\SRC">
+      <UniqueIdentifier>{8016dbfe-0bcb-4f4a-850e-99704c0a08bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS\INC">
+      <UniqueIdentifier>{27cdba1d-1a30-4c26-8d78-0c0613efaf38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI\INC">
+      <UniqueIdentifier>{80786cfe-db7f-4d88-b01e-b85408a51d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMI\SRC">
+      <UniqueIdentifier>{2ee05ac2-0cf4-4856-925e-e00c0d55bc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP\INC">
+      <UniqueIdentifier>{80b19aba-9e1a-4488-8275-643601096f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTP\SRC">
+      <UniqueIdentifier>{439b6135-10fe-4f42-a224-b807f7bd7aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC\INC">
+      <UniqueIdentifier>{ec613f30-417b-4dfb-a561-8de6cc167cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEC\SRC">
+      <UniqueIdentifier>{3539856f-4dbc-4ee4-b06a-504091f9b9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC\INC">
+      <UniqueIdentifier>{f6d7642c-bc91-47ca-ab40-ed8e349b3b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNC\SRC">
+      <UniqueIdentifier>{b6fb389a-82ab-4fdb-92bf-40be07a44ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL\INC">
+      <UniqueIdentifier>{c59b5d28-a9d5-48d5-8be0-6dcedf174646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL\SRC">
+      <UniqueIdentifier>{6ef79872-6bc4-4b9d-9f66-6dd83a7f8430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYS\SRC">
+      <UniqueIdentifier>{bd594297-3956-49e3-aad8-1cc41424fab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DRV">
+      <UniqueIdentifier>{43a24734-3fc7-43e3-bb5c-c1b1cadb249c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DRV\INC">
+      <UniqueIdentifier>{ecb61408-06e7-4a33-b1ac-bd735796df97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Error_code.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iCNC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL\SRC\UTIL.cpp">
+      <Filter>UTIL\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="CNC\SRC\CNC.cpp">
+      <Filter>CNC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MMI\SRC\MMI.cpp">
+      <Filter>MMI\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="SYS\SRC\SYS.cpp">
+      <Filter>SYS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="DEC\SRC\dec.cpp">
+      <Filter>DEC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="INTP\SRC\slope.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="INTP\SRC\INTP.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="SYS\SRC\FIFO.cpp">
+      <Filter>SYS\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="DEC\SRC\dec_Function.cpp">
+      <Filter>DEC\SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="simulate.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="INTP\SRC\circle.cpp">
+      <Filter>INTP\SRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEC\INC\dec.h">
+      <Filter>DEC\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL\INC\UTIL.h">
+      <Filter>UTIL\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="CNC\INC\CNC.h">
+      <Filter>CNC\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="MMI\INC\MMI.h">
+      <Filter>MMI\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="SYS\INC\SYS.h">
+      <Filter>SYS\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="INTP\INC\slope.h">
+      <Filter>INTP\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="INTP\INC\INTP.h">
+      <Filter>INTP\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="SYS\INC\FIFO.h">
+      <Filter>SYS\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="DRV\INC\stepMotorDRV.h">
+      <Filter>DRV\INC</Filter>
+    </ClInclude>
+    <ClInclude Include="switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INTP\INC\circle.h">
+      <Filter>INTP\INC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resX">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="simulate.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+1:CNC
+2:SYS
+3:MMI
+4:DEC
+	ID:01 not find NcFile
+	ID:02 N code error: N code need to be positive
+	ID:03 N code error: Find duplicated N code
+	ID:04 G code error: Undefined G code
+	ID:05 G code error: Redefined G00
+5:INTP
+	ID:31 Critical point Error
